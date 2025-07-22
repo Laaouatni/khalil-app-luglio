@@ -4,12 +4,19 @@
   background-color: white;
   color: black;
 }
+
+html, body {
+  height: 100%;
+}
+
 .navImgs {
   width: 40px;
 }
 
 body {
   margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 #barre {
@@ -17,6 +24,15 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 16px;
+}
+
+#main {
+  background-image: url("./film.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* border: 10px solid red; */
+  flex: 1;
 }
 
 @media (prefers-color-scheme: light) {
