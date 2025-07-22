@@ -36,6 +36,10 @@ body {
   padding: 1rem;
 }
 
+#description {
+  color: white;
+}
+
 @media (prefers-color-scheme: light) {
   #titre {
     color: rgb(173, 12, 173);
