@@ -1,3 +1,15 @@
 :root {
   color-scheme: light dark;
 }
+
+@media (prefers-color-scheme: light) {
+  #titre {
+    color: rgb(173, 12, 173);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  #titre{
+    color: blue;
+  }
+}
