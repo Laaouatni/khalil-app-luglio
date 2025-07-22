@@ -4,9 +4,18 @@
   background-color: white;
   color: black;
 }
+.navImgs {
+  width: 40px;
+}
 
 body {
   margin: 0;
+}
+
+#barre {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
 }
 
 @media (prefers-color-scheme: light) {
